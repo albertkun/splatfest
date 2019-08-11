@@ -9,7 +9,7 @@ from pytz import timezone
 import pytz
 
 bot = commands.Bot(command_prefix='!')
-# client = discord.Client()
+# Bring in your discord bot key
 TOKEN = DConfig.KEY
 
 @bot.event
