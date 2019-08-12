@@ -68,3 +68,4 @@ def get_matches(username,fest_start,fest_end):
         get_splatnet(username,oldest_id)
             # get_next_batch()
         # return(data)
+matches = get_matches("albertk",fest_start,fest_end)
