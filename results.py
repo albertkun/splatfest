@@ -23,11 +23,13 @@ fest_end = convert_pst(2019,8,11,10)
 def record_data():
     print('hi')
 
+### used to get local data instead of pinging the api during development
 def open_data():
     with open("battle.json") as json_file:
         data = json.load(json_file)
         return data
-
+###
+    
 def get_splatnet(username,older=None):
     url = "https://stat.ink/api/v2/battle"
     parameters = {
