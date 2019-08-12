@@ -64,7 +64,6 @@ def get_matches(username,fest_start,fest_end):
 
     if last_start > fest_start:
         print('need to get more matches')
-        get_matches()
         get_splatnet(username,oldest_id)
             # get_next_batch()
         # return(data)
